@@ -1,9 +1,15 @@
 import React from "react";
 
+import Body from "./Body";
+
 import "./App.css";
 
 const App = () => {
-  return <div> application is running</div>;
+  return (
+    <div>
+      <Body />
+    </div>
+  );
 };
 
 export default App;
