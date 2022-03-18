@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+.cardTile {
+  width: 15vw;
+  background-color: aqua;
+  font-size: 2vw;
+  border-radius: 5px;
+  padding: 1vw;
+  font-family: "Courgette", cursive;
+}
