@@ -1,10 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 .cardTile {
-  width: 15vw;
-  background-color: aqua;
+  width: 25vw;
+  background-color: #6ac47e;
   font-size: 2vw;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 1vw;
   font-family: "Courgette", cursive;
+  text-align: center;
+  display: block;
+  transition: transform 0.1s; /* Animation */
+}
+
+.cardTile:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+  transform: scale(
+    1.2
+  ); /*(150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.btn,
+.jumbotron :hover {
+  scrollbar-shadow-color: white;
+  scroll-behavior: auto;
+}
+
+@media screen and (min-width: 601px) {
+  .btn {
+    font-size: 1.5vw;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .btn {
+    font-size: 3vw;
+  }
 }
