@@ -5,7 +5,7 @@ import "./Card.css";
 const Card = (props) => {
   return (
     <div>
-      <div className="cardTile">{props.disease}</div>
+      <div className="cardTile btn">{props.disease}</div>
     </div>
   );
 };
