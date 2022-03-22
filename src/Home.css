@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+
+.dpheading {
+  text-align: center;
+  font-family: "Hurricane", cursive;
+  font-size: 8vw;
+}
+
+.diseasesTiles {
+  margin: 8vw 15vw 0vw 15vw;
+}
+
+.r {
+  margin: 0vw 0vw 2vw 0vw;
+}
+
+.c {
+  margin: 5vw;
+}
