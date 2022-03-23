@@ -10,6 +10,7 @@
   text-align: center;
   display: block;
   transition: transform 0.1s; /* Animation */
+  color: black;
 }
 
 .cardTile:hover {
