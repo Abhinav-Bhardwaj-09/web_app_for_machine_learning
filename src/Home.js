@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import Card from "./UI Components/Card";
 
@@ -13,7 +14,9 @@ const Home = () => {
       <div className="diseasesTiles">
         <div className="row r">
           <div className="c">
-            <Card disease="Heart Attack" onClick={onClickHandler} />
+            <NavLink to="/HeartAttack" exact style={{ textDecoration: "none" }}>
+              <Card disease="Heart Attack" onClick={onClickHandler} />
+            </NavLink>
           </div>
           <div className="c">
             <Card disease="Chronic Kidney" onClick={onClickHandler} />
