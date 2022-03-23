@@ -10,8 +10,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Home />} />
         <Route exact path="/HeartAttack" element={<HA />} />
+        <Route exact path="/*" element={<Home />} />
       </Routes>
     </Router>
   );
