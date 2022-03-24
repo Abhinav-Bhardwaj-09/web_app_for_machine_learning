@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+
+.dheading {
+  text-align: center;
+  font-family: "Hurricane", cursive;
+  font-size: 8vw;
+}
+
+.formStyling {
+  margin: 5vw 15vw 15vw 15vw;
+}
+
+.HAlabel {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  display: block;
+}
+
+.inputStyling {
+  border-radius: 5px;
+}
+
+/*
+
+/////////////////////////
+/////////////////////////
+/////////////////////////
+/////////////////////////
+
+*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
