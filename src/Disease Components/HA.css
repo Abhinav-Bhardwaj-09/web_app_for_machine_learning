@@ -18,6 +18,22 @@
 
 .inputStyling {
   border-radius: 5px;
+  width: 8vw;
+  text-align: end;
+  padding: 0.3vw;
+}
+
+.rHA {
+  margin: 0vw 0vw 0vw 0vw;
+}
+
+.cHA {
+  margin: 2vw;
+  text-align: end;
+}
+
+.lastRow {
+  align-content: center;
 }
 
 /*
