@@ -84,6 +84,12 @@ const HA = () => {
         </label>
 
         <label className="HAlabel">
+          ST depression induced by exercise relative to rest (OldPeak)
+          :&nbsp;&nbsp;&nbsp;
+          <input type="number" className="inputStyling" />
+        </label>
+
+        <label className="HAlabel">
           Slope of the Peak Exercise ST Segment :&nbsp;&nbsp;&nbsp;
           <select className="inputStyling">
             <option selected>Choose</option>
