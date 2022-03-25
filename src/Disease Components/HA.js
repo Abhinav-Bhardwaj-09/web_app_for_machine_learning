@@ -125,7 +125,7 @@ const HA = () => {
           </div>
         </div>
 
-        <div className="row rHA lastRow">
+        <div className="row rHA">
           <label className="HAlabel">
             ST depression induced by exercise relative to rest (OldPeak)
             :&nbsp;&nbsp;&nbsp;
