@@ -12,21 +12,21 @@ const Home = () => {
     <div>
       <h1 className="dpheading">Disease &nbsp; Predictor</h1>
       <div className="diseasesTiles">
-        <div className="row r">
-          <div className="c">
+        <div className="row rHome">
+          <div className="cHome">
             <NavLink to="/HeartAttack" exact style={{ textDecoration: "none" }}>
               <Card disease="Heart Attack" onClick={onClickHandler} />
             </NavLink>
           </div>
-          <div className="c">
+          <div className="cHome">
             <Card disease="Chronic Kidney" onClick={onClickHandler} />
           </div>
         </div>
-        <div className="row r">
-          <div className="c">
+        <div className="row rHome">
+          <div className="cHome">
             <Card disease="Brain Tumor" onClick={onClickHandler} />
           </div>
-          <div className="c">
+          <div className="cHome">
             <Card disease="Acute Liver" onClick={onClickHandler} />
           </div>
         </div>
