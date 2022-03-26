@@ -24,7 +24,9 @@ const Home = () => {
         </div>
         <div className="row rHome">
           <div className="cHome">
-            <Card disease="Brain Tumor" onClick={onClickHandler} />
+            <NavLink to="/BrainTumor" exact style={{ textDecoration: "none" }}>
+              <Card disease="Brain Tumor" onClick={onClickHandler} />
+            </NavLink>
           </div>
           <div className="cHome">
             <Card disease="Acute Liver" onClick={onClickHandler} />
