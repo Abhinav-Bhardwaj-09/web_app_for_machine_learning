@@ -1,10 +1,16 @@
 import React from "react";
 
+import { NavLink } from "react-router-dom";
+
 import "./HA.css";
 
 const HA = () => {
   return (
     <div>
+      <NavLink to="/Home" exact style={{ textDecoration: "none" }}>
+        <div className="arrow-left"></div>
+      </NavLink>
+
       <h1 className="dheading">Heart &nbsp;Attack &nbsp; Predictor</h1>
       <br />
 
