@@ -32,6 +32,15 @@
   text-align: end;
 }
 
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 2vw solid transparent;
+  border-bottom: 2vw solid transparent;
+  border-right: 2vw solid whitesmoke;
+  margin-left: 5vw;
+}
+
 /*
 
 /////////////////////////
