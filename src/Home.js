@@ -14,10 +14,17 @@ const Home = () => {
       <div className="diseasesTiles">
         <div className="row rHome">
           <div className="cHome">
-            <NavLink to="/HeartAttack" exact style={{ textDecoration: "none" }}>
-              <Card disease="Heart Attack" onClick={onClickHandler} />
+            <NavLink to="/AcuteLiver" exact style={{ textDecoration: "none" }}>
+              <Card disease="Acute Liver" onClick={onClickHandler} />
             </NavLink>
           </div>
+          <div className="cHome">
+            <NavLink to="/BrainTumor" exact style={{ textDecoration: "none" }}>
+              <Card disease="Brain Tumor" onClick={onClickHandler} />
+            </NavLink>
+          </div>
+        </div>
+        <div className="row rHome">
           <div className="cHome">
             <NavLink
               to="/ChronicKidney"
@@ -27,16 +34,9 @@ const Home = () => {
               <Card disease="Chronic Kidney" onClick={onClickHandler} />
             </NavLink>
           </div>
-        </div>
-        <div className="row rHome">
           <div className="cHome">
-            <NavLink to="/BrainTumor" exact style={{ textDecoration: "none" }}>
-              <Card disease="Brain Tumor" onClick={onClickHandler} />
-            </NavLink>
-          </div>
-          <div className="cHome">
-            <NavLink to="/AcuteLiver" exact style={{ textDecoration: "none" }}>
-              <Card disease="Acute Liver" onClick={onClickHandler} />
+            <NavLink to="/HeartAttack" exact style={{ textDecoration: "none" }}>
+              <Card disease="Heart Attack" onClick={onClickHandler} />
             </NavLink>
           </div>
         </div>
