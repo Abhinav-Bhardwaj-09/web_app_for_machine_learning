@@ -21,21 +21,21 @@ const AL = () => {
             </label>
 
             <label className="HAlabel">
-              Total Bilirubin :&nbsp;&nbsp;&nbsp;
+              Total Bilirubin (mg/dL):&nbsp;&nbsp;&nbsp;
               <input type="number" className="inputStyling" />
             </label>
 
             <label className="HAlabel">
-              Direct Bilirubin :&nbsp;&nbsp;&nbsp;
+              Direct Bilirubin (mg/dL):&nbsp;&nbsp;&nbsp;
               <input type="number" className="inputStyling" />
             </label>
 
             <label className="HAlabel">
-              Aspartate Aminotransferase :&nbsp;&nbsp;&nbsp;
+              Aspartate Aminotransferase (IU/L):&nbsp;&nbsp;&nbsp;
               <input type="number" className="inputStyling" />
             </label>
             <label className="HAlabel">
-              Albumin :&nbsp;&nbsp;&nbsp;
+              Albumin (g/dL):&nbsp;&nbsp;&nbsp;
               <input type="number" className="inputStyling" />
             </label>
           </div>
@@ -51,21 +51,21 @@ const AL = () => {
             </label>
 
             <label className="HAlabel">
-              Alkaline Phosphotase :&nbsp;&nbsp;&nbsp;
+              Alkaline Phosphotase (IU/L):&nbsp;&nbsp;&nbsp;
               <input type="number" className="inputStyling" />
             </label>
 
             <label className="HAlabel">
-              Alamine Aminotransferase :&nbsp;&nbsp;&nbsp;
+              Alamine Aminotransferase (IU/L):&nbsp;&nbsp;&nbsp;
               <input type="number" className="inputStyling" />
             </label>
 
             <label className="HAlabel">
-              Total Protiens :&nbsp;&nbsp;&nbsp;
+              Total Protiens (g/dL):&nbsp;&nbsp;&nbsp;
               <input type="number" className="inputStyling" />
             </label>
             <label className="HAlabel">
-              Albumin_and_Globulin_Ratio :&nbsp;&nbsp;&nbsp;
+              Albumin and Globulin Ratio (A/G):&nbsp;&nbsp;&nbsp;
               <input type="number" className="inputStyling" />
             </label>
           </div>
