@@ -1,3 +1,12 @@
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 2vw solid transparent;
+  border-bottom: 2vw solid transparent;
+  border-right: 2vw solid whitesmoke;
+  margin-left: 5vw;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
 
 .dheading {
@@ -6,8 +15,8 @@
   font-size: 8vw;
 }
 
-.formStyling {
-  margin: 5vw 15vw 15vw 15vw;
+.formStylingHA {
+  margin: 5vw 5vw 15vw 5vw;
 }
 
 .HAlabel {
@@ -16,11 +25,15 @@
   display: block;
 }
 
-.inputStyling {
+.inputStylingHA {
   border-radius: 5px;
-  width: 8vw;
+  width: 15vw;
   text-align: end;
   padding: 0.3vw;
+}
+
+.optionssHA {
+  text-align: center;
 }
 
 .rHA {
@@ -32,13 +45,13 @@
   text-align: end;
 }
 
-.arrow-left {
-  width: 0;
-  height: 0;
-  border-top: 2vw solid transparent;
-  border-bottom: 2vw solid transparent;
-  border-right: 2vw solid whitesmoke;
-  margin-left: 5vw;
+.btnContainer {
+  text-align: center;
+}
+
+.submitButton {
+  margin: 5vw 0vw 5vw 0vw;
+  align-self: center;
 }
 
 /*
