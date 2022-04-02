@@ -14,23 +14,25 @@ const HA = () => {
       <h1 className="dheading">Heart &nbsp;Attack &nbsp; Predictor</h1>
       <br />
 
-      <form className="formStyling">
+      <form className="formStylingHA">
         <div className="row rHA">
           <div className="col cHA">
             <label className="HAlabel">
               Age :&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingHA" />
             </label>
 
             <label className="HAlabel">
               Resting BP (mm Hg) :&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingHA" />
             </label>
 
             <label className="HAlabel">
               Chest Pain Type :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling">
-                <option selected>Choose</option>
+              <select className="inputStylingHA optionssHA ">
+                <option selected disabled>
+                  Choose
+                </option>
                 <option value="0">Asymptomatic</option>
                 <option value="1">Atypical Angina</option>
                 <option value="2">Non-atypical Angina</option>
@@ -40,7 +42,7 @@ const HA = () => {
 
             <label className="HAlabel">
               Slope of the Peak Exercise ST Segment :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling">
+              <select className="inputStylingHA optionssHA">
                 <option selected>Choose</option>
                 <option value="0">Downsloping</option>
                 <option value="1">Flat</option>
@@ -50,7 +52,7 @@ const HA = () => {
 
             <label className="HAlabel">
               Number of Major Vessel(s) :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling">
+              <select className="inputStylingHA optionssHA">
                 <option selected>Choose</option>
                 <option value="0">0</option>
                 <option value="1">1</option>
@@ -61,7 +63,7 @@ const HA = () => {
 
             <label className="HAlabel">
               Resting Electrocardiographic :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling">
+              <select className="inputStylingHA optionssHA">
                 <option selected>Choose</option>
                 <option value="0">
                   Probable or Definite Left Ventricular Hypertrophy by
@@ -79,7 +81,7 @@ const HA = () => {
           <div className="col cHA">
             <label className="HAlabel">
               Sex :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling">
+              <select className="inputStylingHA optionssHA">
                 <option selected>Choose</option>
                 <option value="1">Male</option>
                 <option value="0">Female</option>
@@ -88,12 +90,12 @@ const HA = () => {
 
             <label className="HAlabel">
               Cholesterol (mg/dl) :&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingHA" />
             </label>
 
             <label className="HAlabel">
               Exercise induced Angina :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling">
+              <select className="inputStylingHA optionssHA">
                 <option selected>Choose</option>
                 <option value="1">Yes</option>
                 <option value="0">No</option>
@@ -102,7 +104,7 @@ const HA = () => {
 
             <label className="HAlabel">
               Is Fasting Blood Sugar Level &#62; 120 mg/dl ? :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling">
+              <select className="inputStylingHA optionssHA">
                 <option selected>Choose</option>
                 <option value="1">True</option>
                 <option value="0">False</option>
@@ -111,7 +113,7 @@ const HA = () => {
 
             <label className="HAlabel">
               Blood Disorder (Thalassemia) :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling">
+              <select className="inputStylingHA optionssHA">
                 <option selected>Choose</option>
                 <option value="0">Dropped from the dataset previously</option>
                 <option value="1">
@@ -126,17 +128,21 @@ const HA = () => {
 
             <label className="HAlabel">
               Maximum Heart Rate :&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingHA" />
             </label>
           </div>
         </div>
-
-        <div className="row rHA">
+        <div className="row rHA" style={{ marginLeft: "15vw" }}>
           <label className="HAlabel">
             ST depression induced by exercise relative to rest (OldPeak)
             :&nbsp;&nbsp;&nbsp;
-            <input type="number" className="inputStyling" />
+            <input type="number" className="inputStylingHA" />
           </label>
+        </div>
+        <div className="btnContainer">
+          <button className="btn btn-success submitButton" type="submit">
+            Submit
+          </button>
         </div>
       </form>
     </div>
