@@ -203,8 +203,8 @@ const CK = () => {
             </label>
           </div>
         </div>
-        <div className="btnContainer">
-          <button className="btn btn-success submitButton" type="submit">
+        <div className="btnContainerCK">
+          <button className="btn btn-success submitButtonCK" type="submit">
             Submit
           </button>
         </div>
