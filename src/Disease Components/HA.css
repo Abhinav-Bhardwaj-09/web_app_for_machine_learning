@@ -45,11 +45,11 @@
   text-align: end;
 }
 
-.btnContainer {
+.btnContainerHA {
   text-align: center;
 }
 
-.submitButton {
+.submitButtonHA {
   margin: 5vw 0vw 5vw 0vw;
   align-self: center;
 }
