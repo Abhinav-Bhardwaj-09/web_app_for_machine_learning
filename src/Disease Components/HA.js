@@ -139,8 +139,8 @@ const HA = () => {
             <input type="number" className="inputStylingHA" />
           </label>
         </div>
-        <div className="btnContainer">
-          <button className="btn btn-success submitButton" type="submit">
+        <div className="btnContainerHA">
+          <button className="btn btn-success submitButtonHA" type="submit">
             Submit
           </button>
         </div>
