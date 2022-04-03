@@ -41,6 +41,15 @@
   text-align: end;
 }
 
+.btnContainerCK {
+  text-align: center;
+}
+
+.submitButtonCK {
+  margin: 5vw 0vw 5vw 0vw;
+  align-self: center;
+}
+
 /*
 
 /////////////////////////
