@@ -70,6 +70,11 @@ const AL = () => {
             </label>
           </div>
         </div>
+        <div className="btnContainerAL">
+          <button className="btn btn-success submitButtonAL" type="submit">
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );
