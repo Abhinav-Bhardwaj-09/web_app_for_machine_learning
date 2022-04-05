@@ -12,38 +12,38 @@ const AL = () => {
       <h1 className="dheading">
         Acute &nbsp;Liver &nbsp;Disease &nbsp; Predictor
       </h1>
-      <form className="formStyling">
+      <form className="formStylingAL">
         <div className="row rHA">
           <div className="col cHA">
             <label className="HAlabel">
               Age :&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingAL" />
             </label>
 
             <label className="HAlabel">
               Total Bilirubin (mg/dL):&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingAL" />
             </label>
 
             <label className="HAlabel">
               Direct Bilirubin (mg/dL):&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingAL" />
             </label>
 
             <label className="HAlabel">
               Aspartate Aminotransferase (IU/L):&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingAL" />
             </label>
             <label className="HAlabel">
               Albumin (g/dL):&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingAL" />
             </label>
           </div>
 
           <div className="col cHA">
             <label className="HAlabel">
               Sex :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling">
+              <select className="inputStylingAL optionssAL">
                 <option selected>Choose</option>
                 <option value="1">Male</option>
                 <option value="0">Female</option>
@@ -52,21 +52,21 @@ const AL = () => {
 
             <label className="HAlabel">
               Alkaline Phosphotase (IU/L):&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingAL" />
             </label>
 
             <label className="HAlabel">
               Alamine Aminotransferase (IU/L):&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingAL" />
             </label>
 
             <label className="HAlabel">
               Total Protiens (g/dL):&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingAL" />
             </label>
             <label className="HAlabel">
               Albumin and Globulin Ratio (A/G):&nbsp;&nbsp;&nbsp;
-              <input type="number" className="inputStyling" />
+              <input type="number" className="inputStylingAL" />
             </label>
           </div>
         </div>
