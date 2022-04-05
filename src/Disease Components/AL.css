@@ -15,8 +15,8 @@
   font-size: 8vw;
 }
 
-.formStyling {
-  margin: 5vw 15vw 0vw 0vw;
+.formStylingAL {
+  margin: 5vw 5vw 15vw 5vw;
   text-align: center;
 }
 
@@ -26,11 +26,15 @@
   display: block;
 }
 
-.inputStyling {
+.inputStylingAL {
   border-radius: 5px;
-  width: 8vw;
+  width: 15vw;
   text-align: end;
   padding: 0.3vw;
+}
+
+.optionssAL {
+  text-align: center;
 }
 
 .rAL {
