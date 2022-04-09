@@ -7,9 +7,9 @@ import BT from "./Disease Components/BT";
 import CK from "./Disease Components/CK";
 import AL from "./Disease Components/AL";
 
-import "./Routes.css";
+import "./Routing.css";
 
-const Routes = () => {
+const Routing = () => {
   return (
     <Router>
       <Routes>
@@ -23,4 +23,4 @@ const Routes = () => {
   );
 };
 
-export default Routes;
+export default Routing;
