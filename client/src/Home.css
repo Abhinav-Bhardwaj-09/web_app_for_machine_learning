@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
 
+body {
+  background-color: /*#242b2e*/ black;
+  color: white;
+  margin-top: 5vw;
+}
+
 .dpheading {
   text-align: center;
   font-family: "Hurricane", cursive;
