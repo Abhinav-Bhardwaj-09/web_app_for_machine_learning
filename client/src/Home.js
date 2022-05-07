@@ -19,8 +19,12 @@ const Home = () => {
             </NavLink>
           </div>
           <div className="cHome">
-            <NavLink to="/BrainTumor" exact style={{ textDecoration: "none" }}>
-              <Card disease="Brain Tumor" onClick={onClickHandler} />
+            <NavLink
+              to="/BreastCancer"
+              exact
+              style={{ textDecoration: "none" }}
+            >
+              <Card disease="Breast Cancer" onClick={onClickHandler} />
             </NavLink>
           </div>
         </div>
