@@ -21,10 +21,7 @@ app = Flask(__name__)
 # Binding Heart Attack Disease Route
 @app.route('/HeartAttack', methods =['POST'])
 def predictHA():
-    print("DEFG")
-
     rawFeatures = [float(i) for i in request.form.values()]
-    print("raw features: ", rawFeatures)
 
     if(len(rawFeatures) == 13):
         rearrangedFeatures = list()
@@ -93,7 +90,7 @@ def predictHA():
         {"resulttt": encodedNumpyData}'''
 
     else :
-        print("else case is running", len(rawFeatures))
+       
         return {"elements": ["Element1", "Element2", "Element3"]}
 
 
