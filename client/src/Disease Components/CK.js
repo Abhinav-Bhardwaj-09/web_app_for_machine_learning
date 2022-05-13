@@ -14,14 +14,14 @@ const CK = () => {
       </h1>
       <br />
 
-      <form className="formStyling">
+      <form className="formStyling" method="POST">
         <div className="row rCK">
           <div className="col cCK">
             <label className="CKlabel" htmlFor="Age">
               Age :&nbsp;&nbsp;&nbsp;
               <input
                 type="number"
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Age"
                 name="Age"
               />
@@ -30,7 +30,7 @@ const CK = () => {
             <label className="CKlabel" htmlFor="Specific_Gravity">
               Specific Gravity :&nbsp;&nbsp;&nbsp;
               <select
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Specific_Gravity"
                 name="Specific_Gravity"
               >
@@ -45,7 +45,7 @@ const CK = () => {
 
             <label className="CKlabel" htmlFor="Sugar">
               Sugar :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling" id="Sugar" name="Sugar">
+              <select className="inputStylingCK" id="Sugar" name="Sugar">
                 <option selected>Choose</option>
                 <option value="0">0</option>
                 <option value="1">1</option>
@@ -58,7 +58,7 @@ const CK = () => {
 
             <label className="CKlabel" htmlFor="Pus_Cell">
               Pus Cell :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling" id="Pus_Cell" name="Pus_Cell">
+              <select className="inputStylingCK" id="Pus_Cell" name="Pus_Cell">
                 <option selected>Choose</option>
                 <option value="normal">Normal</option>
                 <option value="abnormal">Abnormal</option>
@@ -67,7 +67,7 @@ const CK = () => {
 
             <label className="CKlabel" htmlFor="Bacteria">
               Bacteria :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling" id="Bacteria" name="Bacteria">
+              <select className="inputStylingCK" id="Bacteria" name="Bacteria">
                 <option selected>Choose</option>
                 <option value="present">Present</option>
                 <option value="notpresent">Not Present</option>
@@ -78,7 +78,7 @@ const CK = () => {
               Blood Glucose Random (in mgs/dl) :&nbsp;&nbsp;&nbsp;
               <input
                 type="number"
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Blood_Glucose_Random"
                 name="Blood_Glucose_Random"
               />
@@ -88,7 +88,7 @@ const CK = () => {
               Serum Creatinine (in mgs/dl) :&nbsp;&nbsp;&nbsp;
               <input
                 type="number"
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Serum_Creatinine"
                 name="Serum_Creatinine"
               />
@@ -98,7 +98,7 @@ const CK = () => {
               Potassium (in mEq/L) :&nbsp;&nbsp;&nbsp;
               <input
                 type="number"
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Potassium"
                 name="Potassium"
               />
@@ -108,7 +108,7 @@ const CK = () => {
               Packed Cell Volume :&nbsp;&nbsp;&nbsp;
               <input
                 type="number"
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Packed_Cell_Volume"
                 name="Packed_Cell_Volume"
               />
@@ -118,7 +118,7 @@ const CK = () => {
               Red Blood Cell Count (in millions/cmm) :&nbsp;&nbsp;&nbsp;
               <input
                 type="number"
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Red_Blood_Cell_Count"
                 name="Red_Blood_Cell_Count"
               />
@@ -127,7 +127,7 @@ const CK = () => {
             <label className="CKlabel" htmlFor="Coronary_Artery_Disease">
               Coronary Artery Disease :&nbsp;&nbsp;&nbsp;
               <select
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Coronary_Artery_Disease"
                 name="Coronary_Artery_Disease"
               >
@@ -140,7 +140,7 @@ const CK = () => {
             <label className="CKlabel" htmlFor="Pedal_Edema">
               Pedal Edema :&nbsp;&nbsp;&nbsp;
               <select
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Pedal_Edema"
                 name="Pedal_Edema"
               >
@@ -156,7 +156,7 @@ const CK = () => {
               Blood Pressure (in mm/Hg) :&nbsp;&nbsp;&nbsp;
               <input
                 type="number"
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Blood_Pressure"
                 name="Blood_Pressure"
               />
@@ -164,7 +164,7 @@ const CK = () => {
 
             <label className="CKlabel" htmlFor="Albumin">
               Albumin :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling" id="Albumin" name="Albumin">
+              <select className="inputStylingCK" id="Albumin" name="Albumin">
                 <option selected>Choose</option>
                 <option value="0">0</option>
                 <option value="1">1</option>
@@ -178,7 +178,7 @@ const CK = () => {
             <label className="CKlabel" htmlFor="Red_Blood_Cells">
               Red Blood Cells :&nbsp;&nbsp;&nbsp;
               <select
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Red_Blood_Cells"
                 name="Red_Blood_Cells"
               >
@@ -191,7 +191,7 @@ const CK = () => {
             <label className="CKlabel" htmlFor="Pus_Cell_Clumps">
               Pus Cell Clumps :&nbsp;&nbsp;&nbsp;
               <select
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Pus_Cell_Clumps"
                 name="Pus_Cell_Clumps"
               >
@@ -204,7 +204,7 @@ const CK = () => {
             <label className="CKlabel" htmlFor="Hypertension">
               Hypertension :&nbsp;&nbsp;&nbsp;
               <select
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Hypertension"
                 name="Hypertension"
               >
@@ -218,7 +218,7 @@ const CK = () => {
               Blood Urea (in mgs/dl) :&nbsp;&nbsp;&nbsp;
               <input
                 type="number"
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Blood_Urea"
                 name="Blood_Urea"
               />
@@ -228,7 +228,7 @@ const CK = () => {
               Hemoglobin (in gms) :&nbsp;&nbsp;&nbsp;
               <input
                 type="number"
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Hemoglobin"
                 name="Hemoglobin"
               />
@@ -238,7 +238,7 @@ const CK = () => {
               Sodium (in mEq/L) :&nbsp;&nbsp;&nbsp;
               <input
                 type="number"
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Sodium"
                 name="Sodium"
               />
@@ -247,7 +247,7 @@ const CK = () => {
             <label className="CKlabel" htmlFor="Diabetes_Mellitus">
               Diabetes Mellitus :&nbsp;&nbsp;&nbsp;
               <select
-                className="inputStyling"
+                className="inputStylingCK"
                 id="Diabetes_Mellitus"
                 name="Diabetes_Mellitus"
               >
@@ -261,7 +261,7 @@ const CK = () => {
               White Blood Cell Count (in cells/cumm) :&nbsp;&nbsp;&nbsp;
               <input
                 type="number"
-                className="inputStyling"
+                className="inputStylingCK"
                 id="White_Blood_Cell_Count"
                 name="White_Blood_Cell_Count"
               />
@@ -269,7 +269,7 @@ const CK = () => {
 
             <label className="CKlabel" htmlFor="Appetite">
               Appetite :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling" id="Appetite" name="Appetite">
+              <select className="inputStylingCK" id="Appetite" name="Appetite">
                 <option selected>Choose</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -278,7 +278,7 @@ const CK = () => {
 
             <label className="CKlabel" htmlFor="Anemia">
               Anemia :&nbsp;&nbsp;&nbsp;
-              <select className="inputStyling" id="Anemia" name="Anemia">
+              <select className="inputStylingCK" id="Anemia" name="Anemia">
                 <option selected>Choose</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
