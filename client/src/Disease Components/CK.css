@@ -16,7 +16,7 @@
 }
 
 .formStyling {
-  margin: 5vw 15vw 15vw 15vw;
+  margin: 5vw 15vw 15vw 10vw;
 }
 
 .CKlabel {
@@ -25,10 +25,10 @@
   display: block;
 }
 
-.inputStyling {
+.inputStylingCK {
   border-radius: 5px;
-  width: 8vw;
-  text-align: end;
+  width: 10vw;
+  text-align: center;
   padding: 0.3vw;
 }
 
