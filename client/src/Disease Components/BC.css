@@ -15,6 +15,12 @@
   font-size: 8vw;
 }
 
+.BClabel {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  display: block;
+}
+
 .formStylingBC {
   margin: 5vw 15vw 0vw 0vw;
   text-align: center;
