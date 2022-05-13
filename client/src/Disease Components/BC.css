@@ -15,29 +15,29 @@
   font-size: 8vw;
 }
 
-.formStyling {
+.formStylingBC {
   margin: 5vw 15vw 0vw 0vw;
   text-align: center;
 }
 
-.BTlabel {
+.BClabel {
   margin-top: 2vw;
   margin-bottom: 2vw;
   display: block;
 }
 
-.inputStyling {
+.inputStylingBC {
   border-radius: 5px;
   width: 8vw;
-  text-align: end;
+  text-align: center;
   padding: 0.3vw;
 }
 
-.rBT {
+.rBC {
   margin: 0vw 0vw 0vw 0vw;
 }
 
-.cBT {
+.cBC {
   margin: 2vw;
   text-align: end;
 }
