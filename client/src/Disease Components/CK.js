@@ -60,8 +60,8 @@ const CK = () => {
               Pus Cell :&nbsp;&nbsp;&nbsp;
               <select className="inputStylingCK" id="Pus_Cell" name="Pus_Cell">
                 <option selected>Choose</option>
-                <option value="normal">Normal</option>
-                <option value="abnormal">Abnormal</option>
+                <option value="1">Normal</option>
+                <option value="0">Abnormal</option>
               </select>
             </label>
 
@@ -69,8 +69,8 @@ const CK = () => {
               Bacteria :&nbsp;&nbsp;&nbsp;
               <select className="inputStylingCK" id="Bacteria" name="Bacteria">
                 <option selected>Choose</option>
-                <option value="present">Present</option>
-                <option value="notpresent">Not Present</option>
+                <option value="0">Present</option>
+                <option value="1">Not Present</option>
               </select>
             </label>
 
@@ -132,8 +132,8 @@ const CK = () => {
                 name="Coronary_Artery_Disease"
               >
                 <option selected>Choose</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
               </select>
             </label>
 
@@ -145,8 +145,8 @@ const CK = () => {
                 name="Pedal_Edema"
               >
                 <option selected>Choose</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
               </select>
             </label>
           </div>
@@ -183,8 +183,8 @@ const CK = () => {
                 name="Red_Blood_Cells"
               >
                 <option selected>Choose</option>
-                <option value="normal">Normal</option>
-                <option value="abnormal">Abnormal</option>
+                <option value="1">Normal</option>
+                <option value="0">Abnormal</option>
               </select>
             </label>
 
@@ -196,8 +196,8 @@ const CK = () => {
                 name="Pus_Cell_Clumps"
               >
                 <option selected>Choose</option>
-                <option value="present">Present</option>
-                <option value="notpresent">Not Present</option>
+                <option value="0">Present</option>
+                <option value="1">Not Present</option>
               </select>
             </label>
 
@@ -209,8 +209,8 @@ const CK = () => {
                 name="Hypertension"
               >
                 <option selected>Choose</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
               </select>
             </label>
 
@@ -252,8 +252,8 @@ const CK = () => {
                 name="Diabetes_Mellitus"
               >
                 <option selected>Choose</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
               </select>
             </label>
 
@@ -271,8 +271,8 @@ const CK = () => {
               Appetite :&nbsp;&nbsp;&nbsp;
               <select className="inputStylingCK" id="Appetite" name="Appetite">
                 <option selected>Choose</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
+                <option value="0">Good</option>
+                <option value="1">Poor</option>
               </select>
             </label>
 
@@ -280,8 +280,8 @@ const CK = () => {
               Anemia :&nbsp;&nbsp;&nbsp;
               <select className="inputStylingCK" id="Anemia" name="Anemia">
                 <option selected>Choose</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
               </select>
             </label>
           </div>
