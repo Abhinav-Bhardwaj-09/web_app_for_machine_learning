@@ -31,6 +31,7 @@ const AL = () => {
               <input
                 required
                 type="number"
+                step="any"
                 className="inputStylingAL"
                 id="Total_Bilirubin"
                 name="Total_Bilirubin"
@@ -42,6 +43,7 @@ const AL = () => {
               <input
                 required
                 type="number"
+                step="any"
                 className="inputStylingAL"
                 id="Direct_Bilirubin"
                 name="Direct_Bilirubin"
@@ -53,6 +55,7 @@ const AL = () => {
               <input
                 required
                 type="number"
+                step="any"
                 className="inputStylingAL"
                 id="Aspartate_Aminotransferase"
                 name="Aspartate_Aminotransferase"
@@ -63,6 +66,7 @@ const AL = () => {
               <input
                 required
                 type="number"
+                step="any"
                 className="inputStylingAL"
                 id="Albumin"
                 name="Albumin "
@@ -92,6 +96,7 @@ const AL = () => {
               <input
                 required
                 type="number"
+                step="any"
                 className="inputStylingAL"
                 id="Alkaline_Phosphotase"
                 name="Alkaline_Phosphotase"
@@ -103,6 +108,7 @@ const AL = () => {
               <input
                 required
                 type="number"
+                step="any"
                 className="inputStylingAL"
                 id="Alamine_Aminotransferase"
                 name="Alamine_Aminotransferase"
@@ -114,6 +120,7 @@ const AL = () => {
               <input
                 required
                 type="number"
+                step="any"
                 className="inputStylingAL"
                 id="Total_Protiens"
                 name="Total_Protiens"
@@ -124,6 +131,7 @@ const AL = () => {
               <input
                 required
                 type="number"
+                step="any"
                 className="inputStylingAL"
                 id="Albumin_and_Globulin_Ratio"
                 name="Albumin_and_Globulin_Ratio"
